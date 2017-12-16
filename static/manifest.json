@@ -1,0 +1,31 @@
+{
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "name": "Happy Wechat Forward",
+    "description": "Happy Wechat Forward",
+    "options_page": "options.html",
+    "content_scripts": [
+        {
+            "matches": ["*://support.weixin.qq.com/*"],
+            "js": ["./js/wx.js"]
+        }
+    ],
+    "icons": {
+        "16": "./img/icon.png",
+        "48": "./img/icon.png",
+        "128": "./img/icon.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "./img/icon.png",
+            "38": "./img/icon.png"
+        },
+        "default_title": "Happy Wechat Forward"
+    },
+    "background": {
+        "scripts": [
+            "./js/background.js"
+        ],
+        "persistent": true
+    }
+}

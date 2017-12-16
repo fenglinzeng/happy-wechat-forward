@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Setting - Happy Wechat Forward</title>
+    <link rel="stylesheet" href="./css/option.css">
+    <script src="./js/option.js"></script>
+</head>
+
+<body>
+    <div class="setting-box">
+        <div class="setting-hd">
+            <h2 class="setting-title">设置</h2>
+        </div>
+        <div class="setting-bd">
+            <div class="form-wrap">
+                <fieldset>
+                    <legend>自动跳转</legend>
+                    <label class="form-radio" for="autoYes">
+                        <span class="verticle-middle dib"><input id="autoYes" type="radio" name="auto-jump" /></span>
+                        <span class="verticle-middle dib">开启</span>
+                    </label>
+                    <label class="form-radio" for="autoNo">
+                        <span class="verticle-middle dib"><input id="autoNo" type="radio" name="auto-jump" /></span>
+                        <span class="verticle-middle dib">关闭</span>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="form-wrap">
+                <fieldset>
+                    <legend>跳转延时</legend>
+                    <label class="form-radio" for="timer-00">
+                        <span class="verticle-middle dib"><input id="timer-00" type="radio" name="jump-timer" /></span>
+                        <span class="verticle-middle dib">0秒</span>
+                    </label>
+                    <label class="form-radio" for="timer-01">
+                        <span class="verticle-middle dib"><input id="timer-01" type="radio" name="jump-timer" /></span>
+                        <span class="verticle-middle dib">1秒</span>
+                    </label>
+                    <label class="form-radio" for="timer-03">
+                        <span class="verticle-middle dib"><input id="timer-03" type="radio" name="jump-timer" /></span>
+                        <span class="verticle-middle dib">3秒</span>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="form-wrap">
+                <fieldset>
+                    <legend>其它设置</legend>
+                    <label class="form-checkbox" for="clickable">
+                        <span><input id="clickable" type="checkbox" name="link-clickable" /></span>
+                        <span>转换页面链接为可点击模式</span>
+                    </label>
+                </fieldset>
+            </div>
+        </div>
+        <div class="setting-ft clearfix">
+            <a id="submit" class="btn fr">保存</a>
+        </div>
+    </div>
+</body>
+
+</html>
